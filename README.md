@@ -8,6 +8,14 @@ Arrays
 * rotateImage : [C#](https://github.com/mbaldini/codefights/blob/master/rotateImage.cs), [Java](https://github.com/mbaldini/codefights/blob/master/rotateImage.java)
 * isCryptSolution : [C#](https://github.com/mbaldini/codefights/blob/master/isCryptSolution.cs), [Java](https://github.com/mbaldini/codefights/blob/master/isCryptSolution.java)
 
+Linked Lists
+------------
+* removeKFromList : [C#](https://github.com/mbaldini/codefights/blob/master/removeKFromList.cs), [Java](https://github.com/mbaldini/codefights/blob/master/removeKFromList.java)
+* isListPalindrome : [C#](https://github.com/mbaldini/codefights/blob/master/isListPalindrome.cs), [Java](https://github.com/mbaldini/codefights/blob/master/isListPalindrome.java)
+* addTwoHugeNumbers : [C#](https://github.com/mbaldini/codefights/blob/master/addTwoHugeNumbers.cs)
+* mergeTwoLinkedLists : [C#](https://github.com/mbaldini/codefights/blob/master/mergeTwoLinkedLists.cs)
+* reverseNodesInKGroups : [C#](https://github.com/mbaldini/codefights/blob/master/reverseNodesInKGroups.cs)
+
 
 Heaps, Stacks, Queues
 ---------------------
