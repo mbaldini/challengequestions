@@ -5,6 +5,8 @@ Arrays
 ------
 * firstDuplicate : [C#](https://github.com/mbaldini/codefights/blob/master/firstDuplicate.cs), [Java](https://github.com/mbaldini/codefights/blob/master/firstDuplicate.java)
 * firstNonRepeatingCharacter : [C#](https://github.com/mbaldini/codefights/blob/master/firstNonRepeatingCharacter.cs), [Java](https://github.com/mbaldini/codefights/blob/master/firstNonRepeatingCharacter.java)
+* rotateImage : [C#](https://github.com/mbaldini/codefights/blob/master/rotateImage.cs), [Java](https://github.com/mbaldini/codefights/blob/master/rotateImage.java)
+* isCryptSolution : [C#](https://github.com/mbaldini/codefights/blob/master/isCryptSolution.cs), [Java](https://github.com/mbaldini/codefights/blob/master/isCryptSolution.java)
 
 
 Heaps, Stacks, Queues
