@@ -17,6 +17,9 @@ Linked Lists
 * reverseNodesInKGroups : [C#](https://github.com/mbaldini/codefights/blob/master/reverseNodesInKGroups.cs)
 * rearrangeLastN : [C#](https://github.com/mbaldini/codefights/blob/master/rearrangeLastN.cs)
 
+Hash Tables
+-----------
+
 
 Heaps, Stacks, Queues
 ---------------------
