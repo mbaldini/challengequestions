@@ -4,6 +4,7 @@ Solutions to some of the codefights questions I have solved
 Arrays
 ------
 * firstDuplicate : [C#](https://github.com/mbaldini/codefights/blob/master/firstDuplicate.cs), [Java](https://github.com/mbaldini/codefights/blob/master/firstDuplicate.java)
+* firstNonRepeatingCharacter : [C#](https://github.com/mbaldini/codefights/blob/master/firstNonRepeatingCharacter.cs), [Java](https://github.com/mbaldini/codefights/blob/master/firstNonRepeatingCharacter.java)
 
 
 Heaps, Stacks, Queues
