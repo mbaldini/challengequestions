@@ -15,6 +15,7 @@ Linked Lists
 * addTwoHugeNumbers : [C#](https://github.com/mbaldini/codefights/blob/master/addTwoHugeNumbers.cs)
 * mergeTwoLinkedLists : [C#](https://github.com/mbaldini/codefights/blob/master/mergeTwoLinkedLists.cs)
 * reverseNodesInKGroups : [C#](https://github.com/mbaldini/codefights/blob/master/reverseNodesInKGroups.cs)
+* rearrangeLastN : [C#](https://github.com/mbaldini/codefights/blob/master/rearrangeLastN.cs)
 
 
 Heaps, Stacks, Queues
