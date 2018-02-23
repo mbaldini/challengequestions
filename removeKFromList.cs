@@ -1,35 +1,35 @@
-Note: Try to solve this task in O(n) time using O(1) additional space, where n is the number of elements in the list, since this is what you'll be asked to do during an interview.
+// Note: Try to solve this task in O(n) time using O(1) additional space, where n is the number of elements in the list, since this is what you'll be asked to do during an interview.
 
-Given a singly linked list of integers l and an integer k, remove all elements from list l that have a value equal to k.
+// Given a singly linked list of integers l and an integer k, remove all elements from list l that have a value equal to k.
 
-Example
+// Example
 
-For l = [3, 1, 2, 3, 4, 5] and k = 3, the output should be
-removeKFromList(l, k) = [1, 2, 4, 5];
-For l = [1, 2, 3, 4, 5, 6, 7] and k = 10, the output should be
-removeKFromList(l, k) = [1, 2, 3, 4, 5, 6, 7].
-Input/Output
+// For l = [3, 1, 2, 3, 4, 5] and k = 3, the output should be
+// removeKFromList(l, k) = [1, 2, 4, 5];
+// For l = [1, 2, 3, 4, 5, 6, 7] and k = 10, the output should be
+// removeKFromList(l, k) = [1, 2, 3, 4, 5, 6, 7].
+// Input/Output
 
-[execution time limit] 3 seconds (cs)
+// [execution time limit] 3 seconds (java)
 
-[input] linkedlist.integer l
+// [input] linkedlist.integer l
 
-A singly linked list of integers.
+// A singly linked list of integers.
 
-Guaranteed constraints:
-0 ≤ list size ≤ 105,
--1000 ≤ element value ≤ 1000.
+// Guaranteed constraints:
+// 0 ≤ list size ≤ 105,
+// -1000 ≤ element value ≤ 1000.
 
-[input] integer k
+// [input] integer k
 
-An integer.
+// An integer.
 
-Guaranteed constraints:
--1000 ≤ k ≤ 1000.
+// Guaranteed constraints:
+// -1000 ≤ k ≤ 1000.
 
-[output] linkedlist.integer
+// [output] linkedlist.integer
 
-Return l with all the values equal to k removed.
+// Return l with all the values equal to k removed.
 
 // Definition for singly-linked list:
 // class ListNode<T> {
@@ -53,7 +53,7 @@ ListNode<int> removeKFromList(ListNode<int> l, int k) {
         if (current.value != k) {
             // since this node isnt k, set our variables and proceed on
             // set currentNode
-            currentNode = new ListNode<int> { value = current.value };
+            currentNode = current;
             // the set the previous nodes next = this node
             if (lastNode != null) lastNode.next = currentNode;
             // set lastNode to this current node
@@ -64,7 +64,9 @@ ListNode<int> removeKFromList(ListNode<int> l, int k) {
         
         // when we hit the end, bail out.
         if (current.next == null) break;
-        current = current.next;
+        ListNode<int> next = current.next;
+        current.next = null;
+        current = next;
     }
     
     return firstNode;
