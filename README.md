@@ -47,3 +47,23 @@ Heaps, Stacks, Queues
 Depth-First Search & Breadth-First Search
 -----------------------------------------
 * traverseTree : [C#](https://github.com/mbaldini/codefights/blob/master/traverseTree.cs)
+* largestValuesInTreeRows : [C#](https://github.com/mbaldini/codefights/blob/master/largestValuesInTreeRows.cs)
+* digitTreeSum : [C#](https://github.com/mbaldini/codefights/blob/master/digitTreeSum.cs)
+* longestPath : [C#](https://github.com/mbaldini/codefights/blob/master/longestPath.cs)
+
+Common Techniques: Basic
+------------------------
+* containsDuplicates : [C#](https://github.com/mbaldini/codefights/blob/master/containsDuplicates.cs)
+* sumOfTwo : [C#](https://github.com/mbaldini/codefights/blob/master/sumOfTwo.cs)
+* sumInRange : [C#](https://github.com/mbaldini/codefights/blob/master/sumInRange.cs)
+* arrayMaxConsecutiveSum2 : [C#](https://github.com/mbaldini/codefights/blob/master/arrayMaxConsecutiveSum2.cs)
+* findLongestSubarrayBySum : [C#](https://github.com/mbaldini/codefights/blob/master/findLongestSubarrayBySum.cs)
+
+Strings
+-------
+* amendTheSentence : [C#](https://github.com/mbaldini/codefights/blob/master/amendTheSentence.cs)
+* findFirstSubstringOccurrence : [C#](https://github.com/mbaldini/codefights/blob/master/findFirstSubstringOccurrence.cs)
+* classifyStrings : [C#](https://github.com/mbaldini/codefights/blob/master/classifyStrings.cs)
+* textJustification : [C#](https://github.com/mbaldini/codefights/blob/master/textJustification.cs)
+* regexMatching : [C#](https://github.com/mbaldini/codefights/blob/master/regexMatching.cs)
+* longestCommonSubstring (almost done) : [C#](https://github.com/mbaldini/codefights/blob/master/longestCommonSubstring.cs)
