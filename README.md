@@ -36,7 +36,6 @@ Trees: Basic
 
 Heaps, Stacks, Queues
 ---------------------
-
 * kthLargestElement : [C#](https://github.com/mbaldini/codefights/blob/master/kthLargestElement.cs)
 * simplifyPath : [C#](https://github.com/mbaldini/codefights/blob/master/simplifyPath.cs), [Java](https://github.com/mbaldini/codefights/blob/master/simplyPath.java)
 * decodeString : [C#](https://github.com/mbaldini/codefights/blob/master/decodeString.cs)
@@ -45,3 +44,6 @@ Heaps, Stacks, Queues
 * countClouds : [C#](https://github.com/mbaldini/codefights/blob/master/countClouds.cs)
 * nearestGreater : [C#](https://github.com/mbaldini/codefights/blob/master/nearestGreater.cs), [Java](https://github.com/mbaldini/codefights/blob/master/nearestGreater.java)
 
+Depth-First Search & Breadth-First Search
+-----------------------------------------
+* traverseTree : [C#](https://github.com/mbaldini/codefights/blob/master/traverseTree.cs)
