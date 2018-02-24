@@ -19,7 +19,20 @@ Linked Lists
 
 Hash Tables
 -----------
+* groupingDishes : [C#](https://github.com/mbaldini/codefights/blob/master/groupingDishes.cs)
+* areFollowingPatterns : [C#](https://github.com/mbaldini/codefights/blob/master/areFollowingPatterns.cs)
+* containsCloseNums : [C#](https://github.com/mbaldini/codefights/blob/master/containsCloseNums.cs)
+* possibleSums : [C#](https://github.com/mbaldini/codefights/blob/master/possibleSums.cs)
 
+Trees: Basic
+------------
+* hasPathWithGivenSum : [C#](https://github.com/mbaldini/codefights/blob/master/hasPathWithGivenSum.cs)
+* isTreeSymmetric : [C#](https://github.com/mbaldini/codefights/blob/master/isTreeSymmetric.cs)
+* findProfession : [C#](https://github.com/mbaldini/codefights/blob/master/findProfession.cs)
+* kthSmallestInBST : [C#](https://github.com/mbaldini/codefights/blob/master/kthSmallestInBST.cs)
+* isSubtree : [C#](https://github.com/mbaldini/codefights/blob/master/isSubtree.cs)
+* restoreBinaryTree : [C#](https://github.com/mbaldini/codefights/blob/master/restoreBinaryTree.cs)
+* findSubstrings : [C#](https://github.com/mbaldini/codefights/blob/master/findSubstrings.cs)
 
 Heaps, Stacks, Queues
 ---------------------
