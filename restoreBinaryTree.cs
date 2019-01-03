@@ -88,41 +88,32 @@
 // }
 Tree<int> restoreBinaryTree(int[] inorder, int[] preorder) {
     // we cant restore an empty tree...
-    if (preorder.Length == 0) return null;
+    if (inorder.Length == 0) return null;
     
     // create a new root element for the tree. The root will always be
     // the first element in the preorder array
     Tree<int> root = new Tree<int> { value = preorder[0] };
     
-    // if there is only one element, then we can simply return root now
+    // (Optimization) if there is only one element, 
+    // then we can simply return root now
     if (inorder.Length == 1) return root;
     
-    // Now we find out where in the inOrder array the root is so we
+    // Now we find out where in the inorder array the root is so we
     // can start to build out our restored tree.
-    int rootIndex = inorder.ToList().IndexOf(root.value);
+    int rootIndex = Array.IndexOf(inorder, root.value);
     
-    // now we split the inorder array in half, one on each side
+    // now we split the inorder array in two, one on each side
     // of our root element
     int[] inorderLeft = inorder.Take(rootIndex).ToArray();
     int[] inorderRight = inorder.Skip(rootIndex + 1).ToArray();
     
-    // declare lists to hold the split preorder values
-    List<int> preorderLeft = new List<int>();
-    List<int> preorderRight = new List<int>();
+    // split preorder into right/left
+    int[] preorderLeft = preorder.Skip(1).ToArray();
+    int[] preorderRight = preorder.Skip(rootIndex + 1).ToArray();
     
-    // start processing the preorder values, splitting them into
-    // right/left based on which array inOrder arrays they are in
-    foreach(int i in preorder) {
-        if (inorderLeft.Contains(i)){
-            preorderLeft.Add(i);
-        } else if (inorderRight.Contains(i)) {
-            preorderRight.Add(i);
-        }
-    }
-    
-    // now we start recursively building out the left and right nodes
-    root.left = restoreBinaryTree(inorderLeft, preorderLeft.ToArray());
-    root.right = restoreBinaryTree(inorderRight, preorderRight.ToArray());
+    // now we recursively build out the left and right nodes
+    root.left = restoreBinaryTree(inorderLeft, preorderLeft);
+    root.right = restoreBinaryTree(inorderRight, preorderRight);
     
     return root;
 }
